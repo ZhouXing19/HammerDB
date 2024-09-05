@@ -837,7 +837,7 @@ proc print { args } {
                                 set tmpdictforpt [ dict remove [ subst \$config$key ] $bmdct ]
                             }
                         }
-                        puts "Dictionary Settings for $rdbms"
+                        puts "Dictionary Settings1 for $rdbms"
                         pdict 2 $tmpdictforpt
                 }}
             }
